@@ -18,7 +18,6 @@ body {
 /*---------Page 1 ----------Header*/
 
 /*--------------LOGO------------------*/
-
 .logo {
   font-family: var(--logo-font);
   width: 145px;
@@ -730,10 +729,6 @@ img {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
-
-/*.button-clients:first-child {
-  margin-left: 0;
-}*/
 
 /*-----------------Footer---------------------*/
 
