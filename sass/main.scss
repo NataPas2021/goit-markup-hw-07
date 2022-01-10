@@ -1,12 +1,12 @@
 /*----Fonts----*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');*/
 
 /*------Utils---*/
 @import './utils/variables';
 @import './utils/reset';
 
 /*-------Base---*/
-@import './base/normalize';
+/*@import './base/normalize';*/
 
 /*----Components----*/
 @import './components/logo';
@@ -21,6 +21,5 @@
 @import './components/our-team';
 @import './components/our-clients';
 @import './components/footer';
-@import './components/footer-joinus';
 @import './components/filtr';
 @import './components/our-projects';

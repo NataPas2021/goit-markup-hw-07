@@ -41,6 +41,10 @@
 
 .client:hover,
 .client:focus {
-  fill: $accent-color;
   border-color: $accent-color;
+}
+
+.client:hover .client__icon,
+.client:focus .client__icon {
+  fill: $accent-color;
 }
