@@ -11,10 +11,6 @@
   display: flex;
 }
 
-.client:not(:first-child) {
-  margin-left: 30px;
-}
-
 .client {
   display: flex;
   width: 170px;
@@ -26,6 +22,15 @@
   border-radius: 4px;
   border: 1px solid #afb1b8;
   cursor: pointer;
+
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+
+  &.client:hover,
+  &.client:focus {
+    border-color: $accent-color;
+  }
 }
 
 .client__icon {
@@ -37,14 +42,9 @@
   fill: #afb1b8;
 
   transition: fill 250ms $timing-function, border-color 250ms $timing-function;
-}
 
-.client:hover,
-.client:focus {
-  border-color: $accent-color;
-}
-
-.client:hover .client__icon,
-.client:focus .client__icon {
-  fill: $accent-color;
+  .client:hover &,
+  .client:focus & {
+    fill: $accent-color;
+  }
 }

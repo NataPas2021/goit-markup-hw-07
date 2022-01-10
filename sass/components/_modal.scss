@@ -20,43 +20,6 @@
   transition: transform 250ms $timing-function, opacity 250ms $timing-function;
 }
 
-.button-close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-
-  justify-content: center;
-  align-items: center;
-
-  width: 30px;
-  height: 30px;
-  padding: 0;
-  border-radius: 50%;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-
-  transform: scale(1);
-
-  transition: transform 250ms $timing-function;
-}
-
-.icon-close-button {
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  fill: $title-text-color;
-  transform: fill;
-
-  transition: fill 250ms $timing-function;
-}
-
-.button-close:hover .icon-close-button,
-.button-close:focus .icon-close-button {
-  transform: scale(1.1);
-  fill: $accent-color;
-}
-
 .modal__title {
   display: block;
   font-family: $main-font;
@@ -69,4 +32,40 @@
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
+}
+
+.button-close {
+  display: flex;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transform: scale(1);
+
+  transition: transform 250ms $timing-function;
+}
+
+.button-close__icon {
+  display: flex;
+  /*margin: 0 auto;*/
+  justify-content: center;
+  align-items: center;
+  fill: $title-text-color;
+  transform: fill;
+
+  transition: fill 250ms $timing-function;
+
+  .button-close:hover &,
+  .button-close:focus & {
+    transform: scale(1.1);
+    fill: $accent-color;
+  }
 }
