@@ -16,6 +16,11 @@
   color: $accent-color;
 }
 
+.logo__text--black {
+  font-family: $logo-font;
+  color: $title-text-color;
+}
+
 .logo__text--white {
   font-family: $logo-font;
   color: $background-color;
