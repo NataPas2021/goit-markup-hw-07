@@ -73,10 +73,6 @@ img {
   color: white;
 }
 
-.logo.footer_logo {
-  margin-bottom: 20px;
-}
-
 .pageheader {
   border-bottom: 1px solid #ececec;
 }
@@ -988,7 +984,6 @@ img {
   margin-left: 0;
 }
 
-.footer__address,
 .footer__mail,
 .footer__phone {
   margin-top: 9px;
