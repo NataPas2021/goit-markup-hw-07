@@ -73,6 +73,10 @@ img {
   color: white;
 }
 
+.logo.footer_logo {
+  margin-bottom: 20px;
+}
+
 .pageheader {
   border-bottom: 1px solid #ececec;
 }
@@ -644,10 +648,9 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-top: o;
-  margin-left: -30px;
 }
 
-.advantages .advantages__title {
+.advantages__title {
   margin-bottom: 10px;
   font-family: "Roboto", "sans-serif";
   font-weight: 700;
@@ -658,7 +661,7 @@ img {
   color: #212121;
 }
 
-.advantages .advantages__icon {
+.advantages__icon {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -680,7 +683,7 @@ img {
           border-radius: 4px;
 }
 
-.advantages .advantages__text {
+.advantages__text {
   width: 270px;
   height: 75px;
   font-family: "Roboto", "sans-serif";
